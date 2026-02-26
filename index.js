@@ -6,7 +6,7 @@ const campaignRouter = require('./routes/campaignRouter')
 app.use(cors());
 app.use(express.json());
 app.get("/", (req, res) => {
-    res.send("Hare Krishna Hare Ram");
+    res.send("HKHKKKHHHRHRRRHH");
 });
 
 app.use("/api/v1/campaign", campaignRouter);
